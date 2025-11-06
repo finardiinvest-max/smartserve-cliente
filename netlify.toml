@@ -1,0 +1,1 @@
+command = "npm install -g npm@10.7.0 && npm install && npm run build"
