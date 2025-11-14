@@ -208,7 +208,7 @@ export default function Home() {
               {products.map(product => (
                 <Card key={product._id} className="flex flex-col hover:shadow-lg transition-shadow">
                   {product.imagemUrl && (
-                    <div className="aspect-video w-full overflow-hidden rounded-t-lg">
+                    <div className="aspect-[2/1.5] w-full overflow-hidden rounded-t-lg h-36">
                       <img
                         src={product.imagemUrl}
                         alt={product.nome}
