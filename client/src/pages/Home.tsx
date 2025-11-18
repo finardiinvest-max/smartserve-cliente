@@ -12,16 +12,15 @@ import { APP_LOGO } from '@/const';
 
 const CATEGORIAS = [
   { value: 'paes', label: 'Pães' },
-  { value: 'doces', label: 'Doces' },
+  { value: 'doces-e-bolos', label: 'Doces e Bolos' },
   { value: 'salgados', label: 'Salgados' },
   { value: 'bebidas', label: 'Bebidas' },
-  { value: 'bolos', label: 'Bolos' },
   { value: 'pizzas', label: 'Pizzas' },
   { value: 'refeicoes', label: 'Refeições' },
-  { value: 'lanches', label: 'Lanches' },
+  { value: 'lanches-e-beirutes', label: 'Lanches e Beirutes' },
   { value: 'omeletes', label: 'Omeletes' },
-  { value: 'bebidas-quentes', label: 'Bebidas Quentes' },
-  { value: 'outros', label: 'Outros' },
+  { value: 'bebidas-matinais', label: 'Bebidas Matinais' },
+  { value: 'lanches_matinais', label: 'Lanches Matinais' },
 ];
 
 export default function Home() {
