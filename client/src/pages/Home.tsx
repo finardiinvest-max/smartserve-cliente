@@ -20,7 +20,7 @@ const CATEGORIAS = [
   { value: 'lanches-e-beirutes', label: 'Lanches e Beirutes' },
   { value: 'omeletes', label: 'Omeletes' },
   { value: 'bebidas-matinais', label: 'Bebidas Matinais' },
-  { value: 'lanches_matinais', label: 'Lanches Matinais' },
+  { value: 'lanches-matinais', label: 'Lanches Matinais' },
 ];
 
 export default function Home() {
